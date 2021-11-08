@@ -24,19 +24,19 @@ o	The following columns "NAME" and "EIN" should be dropped.
 
 o	In the first neural network model we performed 8 In the hidden_nodes_layer1and 5 in the hidden_nodes_layer2. For the 1st & 2nd hidden layer the activation was “relu”, while in the Output layer we used “Sigmoid”. The total parameters were 403.We used 100 epochs to train the module. The accuracy was 53% and the loss was 70%.
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Asmaamkawi/Neural_Network_Charity_Analysis/blob/main/Images/AlphabetSoupCharity.JPG)
 
 o	To achieve the 75% accuracy (was not met), we had to make the following changes to the module in attempt 1, 2 & optimization: 70 In the hidden_nodes_layer1 and 30 in the hidden_nodes_layer2. The total parameters were 5,241. We used 100 epochs to train the module. The accuracy was 55% and the loss was 72.4%.
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Asmaamkawi/Neural_Network_Charity_Analysis/blob/main/Images/attempt1.JPG)
 
 o	 In the 2nd attempt we changed the layers to 90 In the hidden_nodes_layer1 and 50 in the hidden_nodes_layer2. The total parameters were 8,561. We used 100 epochs to train the module. The accuracy was 55.7% and the loss was 72.6%.
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Asmaamkawi/Neural_Network_Charity_Analysis/blob/main/Images/attempt2.JPG)
 
 o	In the optimization model we changed the layers to 100 In the hidden_nodes_layer1 and 50 in the hidden_nodes_layer2. The total parameters were 9,501. We used 100 epochs to train the module. The accuracy was 55.9% and the loss was 72.5%.
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Asmaamkawi/Neural_Network_Charity_Analysis/blob/main/Images/optimization.JPG)
 
 In each attempt and in the optimization the model's weights are saved every 5 epochs. 
 
